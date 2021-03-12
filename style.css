@@ -1,0 +1,67 @@
+body{
+    font-size: 22px;
+    background-color: rgb(206, 204, 204);
+    font-family: 'Ubuntu', sans-serif;
+}
+img{
+    width: 40%;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    object-fit: fill;
+}
+p{
+    text-align: justify;
+}
+#container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#first{
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    overflow : auto;
+    
+}
+#second{
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    overflow : auto;
+}
+#menu{
+    background-color: #9a9a9a;
+    margin-bottom: 10px;
+    border: 2px solid rgb(1, 80, 43)
+}
+#menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    color: darkslategray;
+}
+#menu ul{
+    padding: 5px;
+    margin: 2px;
+}
+#blogpost1{
+    margin: 5px;
+    position: relative;
+}
+
+.date{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+    color: #aaa;
+    font-size: 16px;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+h2{
+    display: inline-block;
+    margin: 5px;
+}
