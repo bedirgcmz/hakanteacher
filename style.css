@@ -10,12 +10,19 @@ img{
     margin: 5px;
     object-fit: fill;
 }
+.img{
+    width: 60px;
+}
 p{
     text-align: justify;
 }
 #container{
     margin-left: 5%;
     margin-right: 5%;
+}
+
+#downcontainer{
+    
 }
 
 #first{
@@ -32,13 +39,12 @@ p{
 #menu{
     background-color: #9a9a9a;
     margin-bottom: 10px;
-    border: 2px solid rgb(1, 80, 43)
+    border-bottom:6px solid #008d92
 }
 #menu ul li{
     list-style: none;
     display: inline-block;
     padding-right: 10px;
-    color: darkslategray;
 }
 #menu ul{
     padding: 5px;
@@ -47,6 +53,11 @@ p{
 #blogpost1{
     margin: 5px;
     position: relative;
+}
+
+#author{
+    background-color: #9a9a9a;
+    height: 70px;
 }
 
 .date{
@@ -64,4 +75,21 @@ ul li a{
 h2{
     display: inline-block;
     margin: 5px;
+}
+#author p{
+    padding: 20px;
+    font-weight: bold;
+}
+a{
+    color: black;
+    padding-bottom: 8.2px;
+    padding-top: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+a:link{
+    background-color:#9a9a9a;
+}
+a:focus{
+    background-color: #008d92
 }
